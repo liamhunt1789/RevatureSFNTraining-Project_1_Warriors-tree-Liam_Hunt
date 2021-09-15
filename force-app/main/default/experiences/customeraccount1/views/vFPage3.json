@@ -1,0 +1,49 @@
+{
+  "appPageId" : "c0b77bc4-a426-4c01-ac76-053ea549bdc9",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "106e8b42-2298-461f-9ee8-ac46e644cb85",
+  "label" : "VF Page 3",
+  "regions" : [ {
+    "id" : "5421f49a-4c91-4c4b-9321-1acf45579281",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "1000",
+        "pageName" : "PaginatedContacts",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "cf8ceb0b-2f9e-405c-82cc-e4538f68f74f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c5ef2c2a-5702-4220-888d-4fae3eb221b6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a80bed51-f145-4eab-8d08-6a1d275656a3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "VF Page 3"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "7d196381-1612-45f4-ab74-e4adecbbca01",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "659ddd30-60ba-4864-bec4-816c20982c9f",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-vf-page-3"
+}

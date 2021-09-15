@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f393575d-e7c8-4821-ba8b-639835bc3c9b",
+  "appPageId" : "c0b77bc4-a426-4c01-ac76-053ea549bdc9",
+  "configurationTags" : [ ],
+  "id" : "e3968de3-5950-4103-800b-2db13aa793b3",
+  "label" : "VF Page 4",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-vf-page-4",
+  "type" : "route",
+  "urlPrefix" : "vf-page-4"
+}

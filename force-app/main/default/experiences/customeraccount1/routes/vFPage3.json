@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "106e8b42-2298-461f-9ee8-ac46e644cb85",
+  "appPageId" : "c0b77bc4-a426-4c01-ac76-053ea549bdc9",
+  "configurationTags" : [ ],
+  "id" : "88405426-118e-4fd2-a425-7105781c45c1",
+  "label" : "VF Page 3",
+  "pageAccess" : "RequiresLogin",
+  "routeType" : "custom-vf-page-3",
+  "type" : "route",
+  "urlPrefix" : "vf-page-3"
+}

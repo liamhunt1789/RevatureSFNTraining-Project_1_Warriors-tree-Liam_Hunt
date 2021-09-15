@@ -1,0 +1,53 @@
+{
+  "appPageId" : "c0b77bc4-a426-4c01-ac76-053ea549bdc9",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "f58527dd-d4da-465c-8f18-9b03c4c0ba6a",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "00041c87-7152-46af-b292-a508b39132dc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "1200",
+        "pageName" : "AccountsContacts",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "4a350049-52eb-464c-a174-61002ff5e77d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2e204e4d-5760-4986-a6d7-247aa540d834",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d9ab8180-b1cf-4a2a-ae50-6e876e2c302c",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a7c6f7eb-4eda-4636-897f-6bf9b7f27e66",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ca32db35-0f25-464a-b563-f3497679b43f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "627f6b3c-f4f7-4d17-a296-bc81d1bb0550",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,49 @@
+{
+  "appPageId" : "c0b77bc4-a426-4c01-ac76-053ea549bdc9",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "f393575d-e7c8-4821-ba8b-639835bc3c9b",
+  "label" : "VF Page 4",
+  "regions" : [ {
+    "id" : "6325a45f-8231-49b4-84c7-e91414547e2a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "height" : "1000",
+        "pageName" : "Contact_Details",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:visualforcePage",
+      "id" : "81dac402-7d39-4325-8490-ff6c4473b0a0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b813d4e4-8341-4aa5-91e0-85115a095239",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "395b7b8f-9e07-4f7a-9cbd-238a3149c4b5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "VF Page 4"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3b711810-1467-446d-a1c1-dc3468d5de80",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a24a8562-4fe2-47a9-9539-4fe90edae748",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-vf-page-4"
+}
